@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
-def prange(n):
+def fork_range(n):
     for i in range(n):
         print i
-        print "hello"
+        print "Forked Hello (-_-)"
 
-prange(10)
+fork_range(6)
